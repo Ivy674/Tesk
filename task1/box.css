@@ -2,16 +2,16 @@
     margin: 0;
     padding: 0;
 }
-.box::after{
+.content::after{
     content: "";
     display: block;
     clear: both;
 
 }
-.box{
+.content{
     margin: 1%;
 }
-.box div{
+.content div{
     width: 31.3%;
     /*height:31.3vw;*/
     /*用内边距撑开容器,百分比不能直接用height。height是基于父级的，
